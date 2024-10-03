@@ -1,0 +1,135 @@
+/* General Styles */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #bdccdb;
+    background-image:  url('images/bg.jpg');
+
+header {
+    
+    color: white;
+    padding: 20px;
+    text-align: center;
+    background-color: #042342;
+    background-size: cover; /* Adjusts the image to cover the entire section */
+    background-position: center; /* Centers the background image */
+    background-repeat: no-repeat; /* Ensures the image doesn't repeat */
+}
+
+header h1 {
+    margin: 0;
+    font-size: 36px;
+}
+
+.cta-btn {
+    background-color: #1b4e8e;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    text-transform: uppercase;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+.cta-btn:hover {
+    background-color: #1b4e8e;
+}
+
+/* Hero Section */
+.hero {
+    background-color: #28598d;
+    color: white;
+    padding: 50px 20px;
+    text-align: center;
+    background-image: url('images/banner.jpg'); /* Add this line */
+    background-size: cover; /* Adjusts the image to cover the entire section */
+    background-position: center; /* Centers the background image */
+    background-repeat: no-repeat; /* Ensures the image doesn't repeat */
+    
+}
+
+.hero h2 {
+    font-size: 40px;
+    margin-bottom: 20px;
+}
+
+.hero p {
+    font-size: 18px;
+    margin-bottom: 30px;
+}
+
+.services {
+    padding: 50px 20px;
+    background-color: white;
+    text-align: center;
+     background-image: url('images/serv.jpg'); /* Add this line */
+    background-size: cover; /* Adjusts the image to cover the entire section */
+    background-position: center; /* Centers the background image */
+    background-repeat: no-repeat; /* Ensures the image doesn't repeat */
+}
+
+.services h3 {
+    font-size: 32px;
+    margin-bottom: 40px;
+}
+
+.service-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 30px;
+    justify-items: center;
+}
+
+.service {
+    background-color: #fff;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    text-align: center;
+    
+    
+}
+
+.service img {
+    width: 80px;
+    height: 80px;
+    margin-bottom: 20px;
+}
+
+.service h4 {
+    font-size: 22px;
+    margin-bottom: 10px;
+}
+
+.service p {
+    font-size: 16px;
+    color: #555;
+}
+
+/* Footer */
+footer {
+    background-color: #0e315c;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    background-size: cover; /* Adjusts the image to cover the entire section */
+    background-position: center; /* Centers the background image */
+    background-repeat: no-repeat; /* Ensures the image doesn't repeat */
+}
+
+footer p {
+    margin: 0;
+}
+
+.social-icons {
+    margin-top: 10px;
+}
+
+.social-icons img {
+    width: 30px;
+    height: 30px;
+    margin: 0 10px;
+    filter: brightness(0) invert(1);
+}
